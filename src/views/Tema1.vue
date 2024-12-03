@@ -101,10 +101,10 @@
     .row.justify-content-center.mb-4
       .col-md-12.desktop(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema1/img6.svg', alt='Se comparte un FODA y se desglosa en: F Fortalezas O Oportunidades D Debilidades A Amenazas La F y la D sin internas y permiten actuar sobre ellas. La O y la A son externas y en algunos casos no se pueden modificar.')
+          img(src='@/assets/curso/temas/tema1/img6.svg', alt='Se comparte un FODA y se desglosa en: F Fortalezas O Oportunidades D Debilidades A Amenazas La F y la D son internas y permiten actuar sobre ellas. La O y la A son externas y en algunos casos no se pueden modificar.')
       .col-md-6.movil(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema1/img6_1.svg', alt='Se comparte un FODA y se desglosa en: F Fortalezas O Oportunidades D Debilidades A Amenazas La F y la D sin internas y permiten actuar sobre ellas. La O y la A son externas y en algunos casos no se pueden modificar.')
+          img(src='@/assets/curso/temas/tema1/img6_1.svg', alt='Se comparte un FODA y se desglosa en: F Fortalezas O Oportunidades D Debilidades A Amenazas La F y la D son internas y permiten actuar sobre ellas. La O y la A son externas y en algunos casos no se pueden modificar.')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .titulo.mb-4(data-aos="flip-up")

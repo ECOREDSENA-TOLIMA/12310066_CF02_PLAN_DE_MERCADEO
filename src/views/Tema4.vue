@@ -26,7 +26,7 @@
     
     .titulo.mb-4(data-aos="flip-up")
       img(src='@/assets/curso/temas/imgicono.svg', alt='Imagen decorativa')
-      h5.mb-0 a #[i Marketing] estratégico
+      h5.mb-0 a. #[i Marketing] estratégico
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-left") 
@@ -57,7 +57,7 @@
     .bg3
       .titulo.mb-4(data-aos="flip-up")
         img(src='@/assets/curso/temas/imgicono.svg', alt='Imagen decorativa')
-        h5.mb-0 b #[i Marketing] operativo
+        h5.mb-0 b. #[i Marketing] operativo
 
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-12(data-aos="fade-left") 

@@ -16,7 +16,7 @@ export default {
       tema: 'Diagnóstico en la situación de una empresa.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> validar el conocimiento adquirido sobre el diagnóstico empresarial.<br>Lea cada enunciado referente a los temas desarrollados en el componente formativo y elija entre verdadero y falso según corresponda.',
+        '<b> Objetivo:</b> validar el conocimiento adquirido sobre el diagnóstico empresarial.<br>Lea cada enunciado referente a los temas desarrollados en el componente formativo y elija la respuesta que considere correcta.',
       barajarPreguntas: true,
       preguntas: [
         {
@@ -56,8 +56,8 @@ export default {
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: true },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
             '¡Exacto! El análisis interno evalúa los recursos y capacidades de la empresa, mientras que el análisis externo se encarga de estudiar el mercado, los competidores y las tendencias del sector.',

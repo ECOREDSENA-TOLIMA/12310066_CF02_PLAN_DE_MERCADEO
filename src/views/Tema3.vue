@@ -80,7 +80,7 @@
                 .col-12
                   .row
                     .col-lg-5.col-md-12.mb-4.mb-md-0
-                      p Definición de 2004 de la AMA: Posteriormente, la misma organización ofreció una definición más amplia: "El #[i marketing] es una función organizacional y un conjunto de procesos para generar, comunicar y entregar valor a los consumidores, así como para administrar las relaciones con estos últimos, de modo que la organización y los accionistas obtengan un beneficio" (Kotler & Keller, 2006, p. 6). Aquí se resalta la importancia de la creación de valor y la gestión de las relaciones con los clientes como elementos centrales del #[i marketing].
+                      p Definición de 2004 de la AMA: posteriormente, la misma organización ofreció una definición más amplia: "El #[i marketing] es una función organizacional y un conjunto de procesos para generar, comunicar y entregar valor a los consumidores, así como para administrar las relaciones con estos últimos, de modo que la organización y los accionistas obtengan un beneficio" (Kotler & Keller, 2006, p. 6). Aquí se resalta la importancia de la creación de valor y la gestión de las relaciones con los clientes como elementos centrales del #[i marketing].
                     .col-lg-7.col-10.col-sm-12.mb-lg-0.mb-0
                         figure
                           img(src="@/assets/curso/temas/tema3/img7.png", alt="alt")
@@ -88,7 +88,7 @@
                 .col-12
                   .row
                     .col-lg-5.col-md-12.mb-4.mb-md-0
-                      p Definición de 2007 de la AMA: Más adelante, la AMA actualizó su definición, señalando que "El #[i marketing] es una actividad, un conjunto de herramientas y procesos de creación, comunicación, entrega e intercambio de ofertas que tienen valor para consumidores, clientes, socios y sociedad en general" (American #[i Marketing Association], 2007). Esta definición introduce la noción del #[i marketing] como un proceso de intercambio que beneficia no solo a los consumidores, sino también a los socios y la sociedad en general.
+                      p Definición de 2007 de la AMA: más adelante, la AMA actualizó su definición, señalando que "El #[i marketing] es una actividad, un conjunto de herramientas y procesos de creación, comunicación, entrega e intercambio de ofertas que tienen valor para consumidores, clientes, socios y sociedad en general" (American #[i Marketing Association], 2007). Esta definición introduce la noción del #[i marketing] como un proceso de intercambio que beneficia no solo a los consumidores, sino también a los socios y la sociedad en general.
                     .col-lg-7.col-10.col-sm-12.mb-lg-0.mb-0
                         figure
                           img(src="@/assets/curso/temas/tema3/img8.png", alt="alt")
@@ -96,7 +96,7 @@
                 .col-12
                   .row
                     .col-lg-5.col-md-12.mb-4.mb-md-0
-                      p Stanton, Etzel y Walker (2004): Estos autores definieron el #[i marketing] como "un sistema total de actividades de negocios ideado para planear productos satisfactores de necesidades, asignarles precios, promoverlos y distribuirlos a los mercados meta, a fin de lograr los objetivos de la organización" (p. 7). Esta definición destaca el carácter integral del #[i marketing], que abarca todas las etapas, desde la concepción del producto hasta su llegada al cliente final.
+                      p Stanton, Etzel y Walker (2004): estos autores definieron el #[i marketing] como "un sistema total de actividades de negocios ideado para planear productos satisfactores de necesidades, asignarles precios, promoverlos y distribuirlos a los mercados meta, a fin de lograr los objetivos de la organización" (p. 7). Esta definición destaca el carácter integral del #[i marketing], que abarca todas las etapas, desde la concepción del producto hasta su llegada al cliente final.
                     .col-lg-7.col-10.col-sm-12.mb-lg-0.mb-0
                         figure
                           img(src="@/assets/curso/temas/tema3/img9.png", alt="alt")
@@ -104,7 +104,7 @@
                 .col-12
                   .row
                     .col-lg-5.col-md-12.mb-4.mb-md-0
-                      p Philip Kotler (2005): Considerado el padre moderno del #[i marketing], Kotler define esta disciplina como "la ciencia y el arte de explorar, crear y entregar valor para satisfacer las necesidades de un mercado objetivo y obtener así una utilidad" (p. 1). En esta definición, se hace hincapié en la dualidad del #[i marketing] como ciencia (por su carácter analítico) y arte (por su enfoque creativo en la generación de valor).
+                      p Philip Kotler (2005): considerado el padre moderno del #[i marketing], Kotler define esta disciplina como "la ciencia y el arte de explorar, crear y entregar valor para satisfacer las necesidades de un mercado objetivo y obtener así una utilidad" (p. 1). En esta definición, se hace hincapié en la dualidad del #[i marketing] como ciencia (por su carácter analítico) y arte (por su enfoque creativo en la generación de valor).
                     .col-lg-7.col-10.col-sm-12.mb-lg-0.mb-0
                         figure
                           img(src="@/assets/curso/temas/tema3/img10.png", alt="alt")
