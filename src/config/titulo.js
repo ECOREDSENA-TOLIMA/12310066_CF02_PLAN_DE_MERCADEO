@@ -1,1 +1,1 @@
-module.exports = 'Diagnóstico de la situación de la empresa'
+module.exports = 'Elaborando el plan de mercadeo'

@@ -12,7 +12,7 @@
   &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 18%
+    top: 17%
     right: 12%
 
 
@@ -36,42 +36,33 @@
 
 // Fondos
 .bg1
-  background-color: #E3F8F9
+  //background-image: url(../assets/curso/temas/tema1/imgfon.png) !important
   padding: 3rem
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
 
 .bg2
-  //background-image: url(../assets/curso/temas/tema3/imgfondo2.png) !important
-  background: linear-gradient(to bottom, #FFF, #EAF4FF, #FFF) !important
+  //background-image: url(../assets/curso/temas/tema3/imgfondo.png) !important
+  background: linear-gradient(to bottom, #FFF, #E4F8F9, #E4F8F9, #E4F8F9, #FFF)
   padding: 3rem
   margin-inline: -3rem !important
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
-.bg3
-  background: linear-gradient(to bottom, #FFF, #E4F8F9, #FFF)
-  background-size: cover 
-  background-repeat: no-repeat
-  background-position: center
-  margin-inline: -3rem !important
-  padding: 3rem
-  @media (max-width: $bp-max-sm)
-    margin-inline: -1.5rem !important
-.tarjeta--fondo
-  background-image: url(../assets/curso/temas/tema1/imgfon.png) !important
-  margin-inline: -3rem !important
+
+.tarjeta--boton:active, .tarjeta--boton:focus, .tarjeta--boton:hover
+    background-image: url(../assets/curso/temas/tema3/img_fondo_tarjeta_1.png) !important
+
+.tarjeta--boton
+  background-image: url(../assets/curso/temas/tema3/img_fondo_tarjeta.png) !important
   padding: 3rem
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
 
-.tarjeta--fondo10
-  background-image: url(../assets/curso/temas/tema1/imgfon.png) !important
-  @media (max-width: $bp-max-sm)
-    margin-inline: -1.5rem !important
-
-.fondotarje
-  background-color: #D1F3F5 !important
-// titulo
+.tarjeta--tabla 
+  background-color: #DEECFB
+.tarjeta--tabla:nth-child(even)
+  background-color: #D1F3F5
+  // titulo
 
 .titulo
   background-color: #FFD7B8
@@ -89,7 +80,7 @@
 
 
 .tarjeta.tarjeta--BG03
-  background-image: url("../assets/curso/temas/tema3/imgfondo.png")
+  background-image: url("../assets/curso/temas/tema6/imgfondosly.png")
   background-size: cover
   background-repeat: no-repeat
   background-position: center
@@ -103,7 +94,7 @@
   background-position: center
 
 .tarjeta.tarjeta--BG07
-  //background-image: url("../assets/curso/temas/BG07.svg")
+  background-image: url("../assets/curso/temas/tema7/imgfondtar.png")
   background-size: cover
   background-repeat: no-repeat
   background-position: center
@@ -136,8 +127,10 @@
 
 // .cajon.cajon1
 //   background-color: #FFEDC8
-.cajon.cajon2
+.cajon.cajon3
   background-color: #DEECFB
+.cajon.cajon2
+  background-color: #D1F3F5
 .cajon-b.color-primario:before
   background-color: #DEECFB
 
@@ -149,8 +142,8 @@
 
 // pasosb
 .pasos-b__header__item--before .pasos-b__header__item__dot 
-  border-color: #8CE2E5
-  background-color: #8CE2E5
+  border-color: #B1EC93
+  background-color: #B1EC93
 
 .pasos-b__header__item--active .pasos-b__header__item__line-container:before
   background-color: #9D9D9D
@@ -253,10 +246,10 @@
   background-color: #003AA9
 .linea-tiempo-c__header__btn--left
   background-color: #003AA9
-.fa-angle-right
-  color: #FE9B4F
-.fa-angle-left
+.lista-ul.fa-angle-right
   color:#FE9B4F
+.lista-ul.fa-angle-left
+  color: #FE9B4F
 .linea-tiempo-c__header__btn--left:hover, .linea-tiempo-c__header__btn--right:hover
   border-color: #fff
 
@@ -278,17 +271,23 @@
   margin-bottom: 0 !important
 
 // tabsC
+.tabs-c.color-acento-botones .tabs-c__tab--active 
+    font-weight: 700
 .tabs-c__content-item
-  background-color: #FFEDC8
+  background-color: #D1F3F5
 .tabs-c__tab
   background-color: #E3E8EF
 .tabs-c__tab--active
   background-color: #fff
 .tabs-b__tab--active:hover
-  background-color: #FFEDC8
+  background-color: #EAECF3
 .tabs-c__header
   margin-bottom: 0 !important
+.tabs-c__tab--active 
+    background-color: #FFFFFF !important
 
+.tabs-c__tab
+    background-color: #EAECF3
 // slyder f 
 .fa-chevron-right, .fa-chevron-left
   color: #AF2323
@@ -328,7 +327,7 @@
 //- Listas/viñetas
 .lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
   display: flex
-  
+
 //color titulo
 .titulo1
   color: #2F6261
@@ -336,6 +335,7 @@
 .bg--gradientBlue
   background: linear-gradient(to bottom, #FFF, #E4F8F9, #FFF)
   margin-inline: -3rem !important
+  padding: 3em
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
 

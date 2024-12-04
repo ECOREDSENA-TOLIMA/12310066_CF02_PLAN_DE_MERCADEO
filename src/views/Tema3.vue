@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
-      h1 Aprendiendo sobre el mercado
+      h1 Estrategias de #[i marketing mix] (las 4 P’s)
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="flip-up")
@@ -13,164 +13,220 @@
           img(src='@/assets/curso/temas/tema3/img1.png', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-left") 
-        p Antes de profundizar en el concepto de mercado, es importante aclarar que los términos "mercadeo," "#[i marketing]," y "mercadotecnia" son equivalentes y se utilizan indistintamente para referirse al proceso mediante el cual las empresas identifican y satisfacen las necesidades y deseos de los consumidores. Del mismo modo, los conceptos de "plan de mercadeo," "plan de #[i marketing]," y "plan de mercadotecnia" se refieren al mismo proceso estratégico de planificación de acciones comerciales.
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10
-        .cajon.color-secundario.cajon2.p-4
-          p.mb-0 Se presenta inicialmente la pregunta ¿Qué es el mercado?; de acuerdo con Schnarch & Schnarch (2010), el mercado se puede definir como "un grupo de personas o empresas con necesidades por satisfacer, dinero y voluntad para gastar. […] el producto o servicio a ofrecer puede estar destinado al mercado de consumo, a un mercado organizacional o a ambos" (p.57). Este concepto subraya que un mercado no solo se compone de los individuos o empresas que desean un producto o servicio, sino que también incluye aquellos que poseen los recursos y la intención de adquirirlo.
+        p El #[i marketing mix] es una combinación de herramientas y tácticas que una empresa utiliza para lograr sus objetivos comerciales y satisfacer las necesidades de los consumidores. Este conjunto estratégico, conocido como las 4 P’s, incluye: #[b Producto, Precio, Plaza] (distribución) y #[b Promoción]. Cada una de estas variables juega un papel esencial en la creación y ejecución de un plan de mercadeo efectivo. A continuación, se explican de manera detallada cada una de estas P’s, acompañadas de ejemplos reales que ilustran su aplicación. De manera visual ese concepto se resume en la siguiente gráfica:
+
+    .titulo-sexto.color-acento-contenido.offset-2(data-aos="zoom-in")
+      h5 Figura 2.
+      span  #[i 4 P del marketing ]
     
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-12(data-aos="fade-left") 
-        p Para que un mercado exista, deben darse las siguientes condiciones:
-    
-    .row.justify-content-center.mb-5
-      .col-lg-9.position-relative
-        .avatar
-          figure
-            img(src="@/assets/curso/temas/tema3/img5.svg", alt="alt").img250
-        .crd.crd--avatarHorizontal.crd--first.py-4
-          .row.align-items-center
-            .col-auto
-              figure
-                img(src="@/assets/curso/temas/tema3/img2.svg", alt="alt").img100
-            .col
-              h5 Mediación de compradores y vendedores
-              p La interacción entre quienes ofertan bienes o servicios y quienes los demandan.
-        .crd.crd--avatarHorizontal.py-4
-          .row.align-items-center
-            .col-auto
-              figure
-                img(src="@/assets/curso/temas/tema3/img3.svg", alt="alt").img100
-            .col
-              h5 Presencia de fuerzas de oferta y demanda
-              p La oferta (productos o servicios disponibles) y la demanda (deseo de compra de los consumidores) son los motores que impulsan la dinámica del mercado.
-        .crd.crd--avatarHorizontal.crd--last.py-4
-          .row.align-items-center
-            .col-auto
-              figure
-                img(src="@/assets/curso/temas/tema3/img4.svg", alt="alt").img100
-            .col
-              h5 Voluntad de compra y poder adquisitivo
-              p Los consumidores deben tener no solo la necesidad, sino también la capacidad económica y la intención de adquirir los productos o servicios.
+    .row.justify-content-center.mb-4
+      .col-md-8.desktop(data-aos="zoom-in")
+        figure
+          img(src='@/assets/curso/temas/tema3/img2.svg', alt='En la figura 2, se presenta una gráfica que muestra las famosas 4 P del marketing que son: Producto, Precio, Promoción y Plaza.')
+      .col-md-6.movil(data-aos="zoom-in")
+        figure
+          img(src='@/assets/curso/temas/tema3/img2_1.svg', alt='En la figura 2, se presenta una gráfica que muestra las famosas 4 P del marketing que son: Producto, Precio, Promoción y Plaza.')
+
 
     separador
     
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.1 Definiciones de #[i marketing]
-    
+      h2 3.1 Producto
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-12(data-aos="fade-left") 
-        p El concepto de #[i marketing] ha sido abordado desde diversas perspectivas a lo largo del tiempo, y diferentes autores y organizaciones han contribuido a su definición. A continuación, se presentan algunas de las definiciones más reconocidas en el ámbito empresarial:
+      .col-lg-7.order-lg-1.order-2
+        p El producto es el núcleo del #[i marketing mix] y se refiere a cualquier bien o servicio que la empresa ofrece en el mercado. Para que un producto sea exitoso, debe ser capaz de satisfacer las necesidades o deseos de los consumidores. No se trata solo de las características físicas del producto, sino también de los beneficios que ofrece, la experiencia que proporciona, su empaque, marca, garantía y servicio posventa.
+        p En la elaboración de la estrategia de producto, es fundamental responder a preguntas como:
+        ul.lista-ul
+          li
+            i.fas.fa-check
+            | ¿Qué necesidades o problemas del cliente resuelve el producto?
+          li
+            i.fas.fa-check
+            | ¿Qué características y beneficios lo diferencian de los productos de la competencia?
+          li
+            i.fas.fa-check
+            | ¿Cómo se percibe la marca por parte del cliente?
+      .col-lg-5.col-md-6.col-sm-8.order-lg-2.order-1.mb-4(data-aos="zoom-in")
+        figure
+          img(src='@/assets/curso/temas/tema3/img3.svg', alt='')
+
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .tarjeta.tarjeta--BG03.px-md-5.px-4.py-4
-          .tarteta.fondo-pasosb.p-4
-            PasosB.color-acento-botones
-              .row(titulo="")
-                .col-12
-                  .row
-                    .col-lg-5.col-md-12.mb-4.mb-md-0
-                      p La #[i American Marketing Association] (AMA) definió el #[i marketing] como "un proceso de planear y ejecutar la concepción, el precio, la comunicación y distribución de ideas, bienes y servicios para crear intercambios que puedan satisfacer los objetivos de los individuos y de las organizaciones" (Salomón & Stuart, 2001, p. 3). Esta definición destaca el carácter estratégico y multidimensional del #[i marketing], que abarca desde el diseño del producto hasta su promoción y distribución.
-                    .col-lg-7.col-10.col-sm-12.mb-lg-0.mb-0
-                        figure
-                          img(src="@/assets/curso/temas/tema3/img6.png", alt="alt")
-              .row(titulo="")
-                .col-12
-                  .row
-                    .col-lg-5.col-md-12.mb-4.mb-md-0
-                      p Definición de 2004 de la AMA: Posteriormente, la misma organización ofreció una definición más amplia: "El #[i marketing] es una función organizacional y un conjunto de procesos para generar, comunicar y entregar valor a los consumidores, así como para administrar las relaciones con estos últimos, de modo que la organización y los accionistas obtengan un beneficio" (Kotler & Keller, 2006, p. 6). Aquí se resalta la importancia de la creación de valor y la gestión de las relaciones con los clientes como elementos centrales del #[i marketing].
-                    .col-lg-7.col-10.col-sm-12.mb-lg-0.mb-0
-                        figure
-                          img(src="@/assets/curso/temas/tema3/img7.png", alt="alt")
-              .row(titulo="")
-                .col-12
-                  .row
-                    .col-lg-5.col-md-12.mb-4.mb-md-0
-                      p Definición de 2007 de la AMA: Más adelante, la AMA actualizó su definición, señalando que "El #[i marketing] es una actividad, un conjunto de herramientas y procesos de creación, comunicación, entrega e intercambio de ofertas que tienen valor para consumidores, clientes, socios y sociedad en general" (American #[i Marketing Association], 2007). Esta definición introduce la noción del #[i marketing] como un proceso de intercambio que beneficia no solo a los consumidores, sino también a los socios y la sociedad en general.
-                    .col-lg-7.col-10.col-sm-12.mb-lg-0.mb-0
-                        figure
-                          img(src="@/assets/curso/temas/tema3/img8.png", alt="alt")
-              .row(titulo="")
-                .col-12
-                  .row
-                    .col-lg-5.col-md-12.mb-4.mb-md-0
-                      p Stanton, Etzel y Walker (2004): Estos autores definieron el #[i marketing] como "un sistema total de actividades de negocios ideado para planear productos satisfactores de necesidades, asignarles precios, promoverlos y distribuirlos a los mercados meta, a fin de lograr los objetivos de la organización" (p. 7). Esta definición destaca el carácter integral del #[i marketing], que abarca todas las etapas, desde la concepción del producto hasta su llegada al cliente final.
-                    .col-lg-7.col-10.col-sm-12.mb-lg-0.mb-0
-                        figure
-                          img(src="@/assets/curso/temas/tema3/img9.png", alt="alt")
-              .row(titulo="")
-                .col-12
-                  .row
-                    .col-lg-5.col-md-12.mb-4.mb-md-0
-                      p Philip Kotler (2005): Considerado el padre moderno del #[i marketing], Kotler define esta disciplina como "la ciencia y el arte de explorar, crear y entregar valor para satisfacer las necesidades de un mercado objetivo y obtener así una utilidad" (p. 1). En esta definición, se hace hincapié en la dualidad del #[i marketing] como ciencia (por su carácter analítico) y arte (por su enfoque creativo en la generación de valor).
-                    .col-lg-7.col-10.col-sm-12.mb-lg-0.mb-0
-                        figure
-                          img(src="@/assets/curso/temas/tema3/img10.png", alt="alt")
-    
+      .col-lg-12(data-aos="zoom-in")
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img4.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            h4.mb-3 Ejemplo real: teléfonos móviles
+            br
+            br
+            p Las empresas de tecnología han convertido sus productos, especialmente los teléfonos inteligentes, en una referencia de innovación y calidad. Estos dispositivos no se destacan solo por sus características técnicas, como la cámara, el sistema operativo o el diseño, sino también por la experiencia de usuario que ofrece. Las empresas más famosas del mundo han creado un ecosistema alrededor de su producto, que incluye aplicaciones exclusivas, servicios de almacenamiento en la nube (#[i cloud]), y una atención al cliente eficiente a través de sus tiendas y servicio posventa. La estrategia de producto de estas empresas no solo se centra en la venta del dispositivo, sino en proporcionar una experiencia completa que fideliza a los clientes y fortalece la imagen de la marca.
+  
+    separador
 
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.2 Precio
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-left") 
-        p A partir de las definiciones presentadas, se puede concluir que el #[i marketing] es un proceso de planeación que permite a las empresas ofrecer productos y servicios diferenciados para satisfacer las necesidades de los consumidores. Este proceso involucra la concepción, promoción y distribución de productos, y está orientado hacia la creación de valor tanto para los clientes como para la organización.
+        p El precio es la cantidad de dinero que los consumidores están dispuestos a pagar por el producto. Esta variable es crucial ya que impacta directamente en la percepción del valor del producto, la competitividad en el mercado y la rentabilidad de la empresa. La estrategia de precios debe considerar factores como el costo de producción, el valor percibido por los clientes, los precios de los competidores y la elasticidad de la demanda.
+        p Existen diferentes estrategias de precios, entre ellas:
+
+    .row.mb-4
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4
+          .row.justify-content-center.mb-3
+            .col-6
+              figure
+                img(src='@/assets/curso/temas/tema3/img5.svg', alt='Imagen decorativa')
+
+          h5.text-center Precios basados en el costo
+          p.text-small Se calcula el precio sumando un margen de ganancia al costo de producción.
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4
+          .row.justify-content-center.mb-3
+            .col-6
+              figure
+                img(src='@/assets/curso/temas/tema3/img6.svg', alt='Imagen decorativa')
+
+          h5.text-center Precios basados en el valor
+          p.text-small Se establece el precio en función del valor percibido por los consumidores.
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4
+          .row.justify-content-center.mb-3
+            .col-6
+              figure
+                img(src='@/assets/curso/temas/tema3/img7.svg', alt='Imagen decorativa')
+
+          h5.text-center Precios de penetración
+          p.text-small Se fijan precios bajos inicialmente para atraer a los clientes y ganar participación en el mercado.
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4
+          .row.justify-content-center.mb-3
+            .col-6
+              figure
+                img(src='@/assets/curso/temas/tema3/img8.svg', alt='Imagen decorativa')
+
+          h5.text-center Precios premium
+          p.text-small Se fijan precios altos para posicionar el producto como de alta calidad o lujo.
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12(data-aos="zoom-in")
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img9.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            h4.mb-0 Ejemplo real: las plataformas de #[i streaming] y la estrategia de precios por subscripción
+            br
+            p Las plataformas de #[i streaming] implementan una estrategia de precios basada en el valor, ofreciendo diferentes planes de suscripción mensual que varían según la cantidad de pantallas y la calidad de video. Este modelo permite que los consumidores elijan el plan que mejor se ajuste a sus necesidades y presupuesto, creando una percepción de flexibilidad y accesibilidad. Además, estas plataformas ajustan sus precios periódicamente según la oferta de contenido y las inversiones en producciones originales, reflejando así el valor añadido que ofrece a sus suscriptores, inclusive trabajan en temporadas especiales para validar precios dinámicos.
+
+    separador
+
+    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.3 Plaza (distribución)
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-5.col-md-6.col-sm-8.mb-4(data-aos="zoom-in")
+        figure
+          img(src='@/assets/curso/temas/tema3/img10.svg', alt='Imagen decorativa')
+      .col-lg-7
+        p La plaza o distribución se refiere a las estrategias y canales que la empresa utiliza para llevar su producto al consumidor final. La selección de canales de distribución es fundamental, ya que afecta la disponibilidad y accesibilidad del producto para los clientes. La estrategia de distribución puede ser directa (venta a través de canales propios, como tiendas físicas o en línea) o indirecta (venta a través de intermediarios como minoristas o mayoristas).
+        p Al desarrollar una estrategia de distribución, se deben considerar preguntas como:
+        ul.lista-ul
+          li
+            i.fas.fa-angle-right
+            | ¿Cuál es el canal más efectivo para llegar a los clientes objetivo?
+          li
+            i.fas.fa-angle-right
+            | ¿Cómo se puede optimizar la logística para garantizar la disponibilidad del producto?
+          li
+            i.fas.fa-angle-right
+            | ¿Qué tipo de distribución se utilizará: exclusiva, selectiva o intensiva?
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12(data-aos="zoom-in")
+        .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img11.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            h4.mb-0 Ejemplo real: marcas de ropa y accesorios mundiales y su estrategia de distribución
+            br
+            p Las marcas de accesorios y ropa globales, se destacan por su estrategia de distribución omnicanal. Las empresas combinan tiendas físicas ubicadas en las principales ciudades del mundo con una tienda en línea que ofrece envíos rápidos y recogida en tienda. Además, Zara utiliza un modelo de producción y distribución rápida que permite que los productos lleguen a las tiendas en cuestión de días. Esta estrategia, conocida como "moda rápida" o #[i fast fashion], le ha permitido a este tipo de empresas a mantener un #[i stock] fresco y actualizado, atrayendo a los consumidores con las últimas tendencias. La integración de su tienda en línea con su red de tiendas físicas proporciona una experiencia de compra fluida y conveniente para el cliente.
+
     separador
     .bg2
-      #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 3.2 La planeación estratégica en el #[i marketing]
-      
+      #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 3.4 Promoción
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-12(data-aos="fade-left") 
-          p La planeación estratégica es la plataforma sobre la cual se construyen todos los planes en las diferentes áreas funcionales de la empresa, incluyendo el plan de mercadeo. Esta planeación define el direccionamiento a largo plazo de la empresa, estableciendo su visión, misión, valores, objetivos, políticas, estrategias, programas de acción y presupuestos (Mesa, 2012, p. 200). A través de esta planeación, la empresa identifica sus fortalezas, debilidades, oportunidades y amenazas, y define estrategias que le permitan crecer, generar utilidades y permanecer en el mercado.
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-7.order-lg-1.order-2
-          p Para Sainz de Vicuña (2004), el plan de mercadeo o de #[i marketing] es una herramienta esencial de gestión que define las funciones y responsabilidades del área comercial, facilitando el control y seguimiento de la gestión comercial. Este plan sirve como guía para todas las actividades de #[i marketing] de la empresa y se desarrolla a partir de un reconocimiento exhaustivo tanto del entorno interno como externo.
-          p El plan de mercadeo se convierte en el documento guía del área comercial de la empresa. Este proceso inicia con un análisis interno y externo que, a su vez, permite la definición de objetivos y estrategias. Las decisiones operativas relacionadas con el producto, el precio, la promoción y la distribución se orientan en función de estos objetivos.
-          p El mercado meta se define como el conjunto de consumidores a los que la empresa decide dirigir su oferta de productos o servicios. Según Solomon y Stuart (2001), "los mercados meta son el grupo o grupos de personas u organizaciones, potenciales compradores, que comparten determinadas características y que una firma selecciona para volverlos clientes como consecuencia de la segmentación y la determinación del mercado objetivo" (p. 71).
+          p La promoción es la forma en que la empresa comunica y promociona su producto a los clientes. Incluye todas las actividades de comunicación que buscan informar, persuadir y recordar al público objetivo acerca del producto. Las estrategias de promoción pueden incluir publicidad, relaciones públicas, #[i marketing] directo, ventas personales y promociones de ventas.
+          p Una estrategia efectiva de promoción debe considerar el mensaje que se desea transmitir, los medios de comunicación más adecuados para el público objetivo y el presupuesto disponible. Las tácticas promocionales deben ser coherentes con el posicionamiento del producto y deben integrarse en un plan de comunicación unificado.
 
-        .col-lg-3.col-6.order-lg-2.order-1.mb-0.mb-4
-          figure
-            img(src="@/assets/curso/temas/tema3/img11.png", alt="alt")
       .row.justify-content-center.align-items-center.mb-4
-        .col-lg-12(data-aos="fade-left") 
-          p Para atender de manera efectiva las necesidades del mercado, es necesario realizar un proceso de segmentación, identificando grupos con características y gustos similares. Esto permite que la empresa enfoque sus esfuerzos y recursos de manera eficiente, logrando así alcanzar sus objetivos de #[i marketing].
+        .col-lg-12(data-aos="zoom-in")
+          .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+            .bloque-texto-g__img(
+              :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img12.png')})`}"
+            )
+            .bloque-texto-g__texto.p-4
+              h4.mb-0 Ejemplo real: las bebidas gaseosas y su estrategia de promoción emocional
+              br
+              p Las bebidas gaseosas son conocidas por su estrategia de promoción basada en campañas publicitarias emotivas que buscan conectar con los consumidores a nivel emocional. Un ejemplo es sus campañas es en donde las botellas y latas llevaban los nombres más comunes de las personas. Esta campaña generó un gran impacto, ya que los consumidores se sentían identificados y motivados a buscar una botella con su nombre o el de un ser querido. La estrategia no solo aumentó las ventas, sino que también reforzó la imagen de la marca como un símbolo de alegría y conexión entre las personas.
+
     separador
-    
-    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.3 La segmentación
+
+    #t_3_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.5 Integración de las 4 P’s en el #[i marketing mix]
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-left") 
-        p El proceso de segmentación es crucial para identificar los grupos de clientes que conforman el mercado meta. Dado que es poco probable que una empresa pueda satisfacer a todos los individuos dentro de un mercado particular, se busca identificar nichos de mercado con características similares. Estos mercados meta son aquellas personas disponibles que tienen necesidades comunes, capacidad de gasto y voluntad de adquirir los bienes y servicios ofrecidos por la empresa (Mesa, 2012, p. 70).
-        p Existen dos tipos de mercado: el "mercado meta indiferenciado" o "masivo" y el "mercado meta segmentado":
+        p Una estrategia de #[i marketing mix] efectiva integra las 4 P’s de manera coherente para crear una oferta de valor única para los consumidores. La interacción entre el producto, precio, plaza y promoción permite que la empresa ajuste su enfoque en función de las necesidades del mercado y las condiciones competitivas.
+        p #[b Ejemplo real de integración de las 4 P’s: las empresas de ropa deportiva]
+        p Estas empresas trabajan de forma integrada las 4 P’s:
+      
+    .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
+      .col-lg-8.col-12
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Producto")
+            .col-lg-12.mb-4.mb-md-0
+              p Ofrece una amplia variedad de productos deportivos, desde calzado hasta ropa y accesorios, enfocados en la innovación y el rendimiento.
+          .row(titulo="Precio")
+            .col-lg-12.mb-4.mb-md-0
+              p Utiliza una estrategia de precios #[i premium], posicionando sus productos como de alta calidad y asociándolos con atletas de élite.
 
-    .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-primario.p-5
-        .row.justify-content-center.mb-4
-          .col-3
-            figure
-              img(src='@/assets/curso/temas/tema3/img12.svg', alt='Texto que describa la imagen')
-        h4.text-center Mercado meta indiferenciado
-        p El mercado meta seleccionado del mercado total, es servido por el mismo producto o línea de productos con poca variabilidad en los mismos; la empresa desarrolla su estrategia de #[i marketing] masivo o indiferenciado con un producto para todo el mercado (Mesa, 2012, p.72).
-      .col-md.tarjeta.color-secundario.p-5
-        .row.justify-content-center.mb-4
-          .col-3
-            figure
-              img(src='@/assets/curso/temas/tema3/img13.svg', alt='Texto que describa la imagen')
-        h4.text-center Mercado segmentado
-        p En este caso, se presume que existen grupos de personas, del mercado total o particular, que tienden a desear una oferta en especial y que es factible identificar a estos grupos y producir un bien o servicio en particular que les satisfaga esos deseos comunes (Mesa, 2012, p.73).
-    
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-12(data-aos="fade-left") 
-        p La segmentación del mercado es una estrategia fundamental en el #[i marketing] que permite a las empresas identificar y atender las necesidades específicas de distintos grupos de consumidores. De acuerdo con Mesa (2012), las empresas segmentan su mercado utilizando diversas técnicas, que incluyen estudios relacionados con el comportamiento del consumidor, necesidades, deseos, características geográficas y demográficas, así como gustos, preferencias, valores, estilos de vida, actitudes, comportamientos y tamaño del mercado.
-
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-3.col-6.mb-0.mb-4(data-aos="fade-left")
+          .row(titulo="Plaza")
+            .col-lg-12.mb-4.mb-md-0
+              p Distribuye sus productos a través de tiendas propias, distribuidores autorizados y su plataforma en línea, asegurando una presencia global.
+          
+          .row(titulo="Promoción")
+            .col-lg-12.mb-4.mb-md-0
+              p Emplea campañas publicitarias inspiradoras, patrocina eventos deportivos y utiliza a atletas famosos como embajadores de la marca.
+      .col-lg-4.d-lg-flex.d-none
         figure
-          img(src='@/assets/curso/temas/tema3/img14.svg', alt='Texto que describa la imagen')
-      .col-lg-7
-        p La información obtenida mediante estos estudios se utiliza para conformar diferentes grupos de interés, denominados "segmentos de mercado." La segmentación, según Mesa (2012), "busca identificar grupos homogéneos, bien sea de consumidores finales o usuarios industriales, con el propósito de adecuar el producto a las características del mercado y satisfacer sus necesidades primordiales" (p. 74). Para ello, se establecen unas bases o razones que permiten definir los segmentos de mercado, conocidas como dimensiones para segmentar. Uno de los métodos más comunes es dividir el mercado total en dos grandes segmentos basados en la razón de compra del producto: el mercado de consumidores finales y el mercado de usuarios industriales.
-        p La segmentación de mercado es crucial para que las empresas puedan diseñar ofertas específicas y dirigir sus esfuerzos de #[i marketing] de manera efectiva. Al identificar grupos con características y necesidades similares, la empresa puede focalizarse en satisfacer esas necesidades con productos o servicios diferenciados, lo que a su vez le permite lograr sus objetivos de #[i marketing].
+          img(src='@/assets/curso/temas/tema3/img13.png', alt='Imagen decorativa')
 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12(data-aos="fade-left") 
+        p Esta integración de las 4 P’s ha permitido a las empresas líderes del segmento crear una marca sólida y reconocida mundialmente, atrayendo a un amplio segmento de consumidores que buscan productos de calidad, innovadores y asociados con el rendimiento deportivo.
+        p En resumen, el #[i marketing mix] es un componente esencial en la elaboración de un plan de mercadeo. Las 4 P’s—producto, precio, plaza y promoción—deben ser cuidadosamente diseñadas y alineadas para ofrecer un valor consistente y atractivo para el consumidor, adaptándose a las características y condiciones del mercado en el que opera la empresa. De esta forma se hace una estructura viable comercial que permita perseguir los logros establecidos como se analiza en la siguiente representación:
+    
+    .titulo-sexto.color-acento-contenido.offset-0(data-aos="zoom-in")
+      h5 Figura 3.
+      span  #[i Logro de los objetivos de marketing ]
+    
+    .row.justify-content-center.mb-4
+      .col-md-12.desktop(data-aos="zoom-in")
+        figure
+          img(src='@/assets/curso/temas/tema3/img14.svg', alt='En la figura 3, se describe el logro de los objetivos del marketing es la suma de las estrategias claras establecidas a partir de las 4P junto con las acciones de marketing ordenadas y efectuadas.')
+      .col-md-6.movil(data-aos="zoom-in")
+        figure
+          img(src='@/assets/curso/temas/tema3/img14_1.svg', alt='En la figura 3, se describe el logro de los objetivos del marketing es la suma de las estrategias claras establecidas a partir de las 4P junto con las acciones de marketing ordenadas y efectuadas.')
 
 </template>
 

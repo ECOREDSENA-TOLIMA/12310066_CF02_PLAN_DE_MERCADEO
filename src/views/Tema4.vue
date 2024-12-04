@@ -5,203 +5,262 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
-      h1 Formulación estratégica para el plan de mercadeo
+      h1 Estructura básica del plan de #[i marketing]
     
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-12(data-aos="fade-left") 
-        p La formulación estratégica del plan de mercadeo es el proceso mediante el cual la empresa define las acciones y recursos necesarios para alcanzar sus objetivos comerciales. Es esencial comprender que existen dos orientaciones principales del #[i marketing]: el #[i marketing] estratégico y el #[i marketing] operativo.
-        p En este orden de ideas, la propuesta para esta fase de formulación estratégica es:
-    
-    .titulo-sexto.color-acento-contenido.offset-2(data-aos="zoom-in")
-      h5 Figura 6.
-      span  #[i Formulación estratégica ]
-    
-    .row.justify-content-center.mb-4
-      .col-md-8.desktop(data-aos="zoom-in")
+      .col-lg-12(data-aos="flip-up")
         figure
-          img(src='@/assets/curso/temas/tema4/img1.svg', alt='Se evidencia la formulación estratégica a manera de embudo en la que inicialmente se establecen los objetivos; luego se selecciona el mercado; y posteriormente se debe definir la estrategia a trabajar.')
+          img(src='@/assets/curso/temas/tema4/img1.png', alt='Imagen decorativa')
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12(data-aos="fade-left") 
+        p El plan de #[i marketing] es un documento integral que guía las acciones comerciales y de #[i marketing] de una empresa, proporcionando un enfoque sistemático para alcanzar los objetivos comerciales. Una estructura bien definida es crucial para desarrollar estrategias coherentes y efectivas. A continuación, se detalla la estructura básica de un plan de #[i marketing], que incluye las secciones fundamentales para el análisis, la formulación de estrategias, la implementación de acciones y el seguimiento y control de resultados.
+
+    .titulo-sexto.color-acento-contenido.offset-0(data-aos="zoom-in")
+      h5 Figura 4.
+      span  #[i Estructura de los objetivos del plan ]
+    
+    .row.justify-content-center.mb-5
+      .col-md-12.desktop(data-aos="zoom-in")
+        figure
+          img(src='@/assets/curso/temas/tema4/img2.svg', alt='En la figura 4, se describe la estructura de los objetivos de un buen plan nacen del análisis de una situación real, seguida por el establecimiento de los objetivos para posteriormente establecer las acciones de #[i marketing] que se deben llevar con un buen seguimiento y control.')
       .col-md-6.movil(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema4/img1_1.svg', alt='Se evidencia la formulación estratégica a manera de embudo en la que inicialmente se establecen los objetivos; luego se selecciona el mercado; y posteriormente se debe definir la estrategia a trabajar.')
-    
-    .titulo.mb-4(data-aos="flip-up")
-      img(src='@/assets/curso/temas/imgicono.svg', alt='Imagen decorativa')
-      h5.mb-0 a #[i Marketing] estratégico
-    
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-12(data-aos="fade-left") 
-        p El #[i marketing] estratégico está relacionado con el conocimiento profundo de los mercados y clientes en función de las ofertas. Este enfoque se centra en el análisis del mercado, con el objetivo de desarrollar productos o servicios que se diferencien de los de la competencia y respondan de manera efectiva a las necesidades de los consumidores. Como señala Schnarch (2013), "El #[i marketing] estratégico se refiere al análisis sistemático y permanente de las necesidades del mercado y al desarrollo de conceptos de productos rentables destinados a unos grupos de compradores específicos y que presentan cualidades distintivas que los diferencien de los competidores inmediatos, asegurando así al productor una ventaja competitiva duradera y defendible" (p. 61).
-        p El #[i marketing] estratégico se enfoca en actividades como:
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-7.order-lg-1.order-2
-        ul.lista-ul
-          li
-            i.fas.fa-check
-            | Identificar los mercados a atender: definir claramente los segmentos del mercado en los que la empresa desea incursionar.
-          li
-            i.fas.fa-check
-            | Investigar las necesidades y estrategias de cobertura: comprender las expectativas y necesidades de los consumidores y diseñar estrategias para cubrirlas.
-          li
-            i.fas.fa-check
-            | Establecer los mercados metas: seleccionar los segmentos específicos a los que se dirigirá la oferta de la empresa.
-          li
-            i.fas.fa-check
-            | Estimar la demanda actual y futura: analizar las tendencias del mercado para prever el comportamiento de la demanda.
-          li
-            i.fas.fa-check
-            | Proponer estrategias de diferenciación: desarrollar productos y servicios que posean características únicas que los distingan de la competencia.
-
-      .col-lg-3.col-6.mb-lg-0.order-lg-2.order-1.mb-4(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema4/img2.png', alt='')
-    .bg3
-      .titulo.mb-4(data-aos="flip-up")
-        img(src='@/assets/curso/temas/imgicono.svg', alt='Imagen decorativa')
-        h5.mb-0 b #[i Marketing] operativo
-
-      .row.justify-content-center.align-items-center.mb-4
-        .col-lg-12(data-aos="fade-left") 
-          p Una vez definida la estrategia, se pasa al #[i marketing] operativo, que consiste en la implementación de las acciones necesarias para que las ofertas lleguen al mercado objetivo. Según Schnarch (2013), el #[i marketing] operativo se ocupa de organizar las estrategias de venta y comunicación con el propósito de "dar a conocer a los compradores potenciales las cualidades distintivas de los productos ofrecidos" (p. 61). El #[i marketing] estratégico y el operativo se complementan y permiten a las empresas alcanzar sus objetivos y metas comerciales. 
-          p El #[i marketing] operativo implica actividades como:
-      .row.justify-content-center.align-items-center.mb-4
-        .col-lg-3.col-6.mb-lg-0.mb-4
-          figure
-            img(src='@/assets/curso/temas/tema4/img3.png', alt='')
-        .col-lg-7
-          ul.lista-ul
-            li
-              i.fas.fa-check.clrs
-              | Identificar los objetivos: definir las metas específicas, como alcanzar una cuota de mercado o una cifra de ventas determinada.
-            li
-              i.fas.fa-check.clrs
-              | Determinar el presupuesto necesario: estimar los recursos financieros requeridos para llevar a cabo las estrategias.
-            li
-              i.fas.fa-check.clrs
-              | Definir los programas de producto, precio, distribución y comunicaciones: desarrollar un plan que incluya la definición del producto, su precio, los canales de distribución y las estrategias de promoción.
-            li
-              i.fas.fa-check.clrs
-              p.mb-0 Coordinar estos programas: asegurar la coherencia y sinergia entre las diferentes acciones de #[i marketing].
-            li
-              i.fas.fa-check.clrs
-              | Controlar los resultados y establecer acciones correctivas: evaluar el desempeño de las estrategias implementadas y realizar los ajustes necesarios para mejorar su efectividad.
-      
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-12(data-aos="fade-left") 
-        p La definición de objetivos es un paso crítico en la formulación del plan de mercadeo. Los objetivos establecen los fines que se pretenden alcanzar con el uso de las herramientas de #[i marketing]. De acuerdo con Lerma y Bárcena (2012), "Un objetivo es un punto deseable para la empresa que debe ser medible e inteligible para todos los que conforman la organización" (p. 37). Estos objetivos pueden ser tanto colectivos como individuales y deben cumplir con ciertas características, como ser factibles, cuantificables, ubicados en el tiempo, estar por escrito y representar un reto.
-        p Baena (2011) define el "objetivo de #[i marketing]" como una declaración de los resultados que se espera alcanzar mediante las estrategias de #[i marketing] de la empresa. Para que los objetivos de #[i marketing] sean útiles, deben cumplir con los siguientes requisitos:
-
-    .row.mb-4
-      .col-lg-6.mb-4
-        .tarjeta-avatar-b.mb-4.h-100
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema4/img4.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
-            .p-4
-              h4 Ser realistas, medibles y concretos
-              p Los objetivos deben reflejar una meta alcanzable, contar con indicadores que permitan su evaluación y estar claramente definidos.
-      .col-lg-6
-        .tarjeta-avatar-b.mb-4.h-100
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema4/img5.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
-            .p-4
-              h4 Ser consistentes y señalar prioridades
-              p Deben estar alineados con las prioridades y recursos de la empresa.
-       
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10(data-aos="fade-left") 
-        p Algunos ejemplos comunes de objetivos de #[i marketing] incluyen:
-      
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/temas/tema4/img6.svg', alt='')
-      .col-lg-5(data-aos="fade-left")
-        ul.lista-ul
-          li
-            i.fas.fa-check
-            | Ampliar la participación en el mercado.
-          li
-            i.fas.fa-check
-            | Distinguir oportunidades de crecimiento.
-          li
-            i.fas.fa-check
-            | Acrecentar el volumen de ventas.
-          li
-            i.fas.fa-check
-            | Posicionar la imagen de un producto o marca.
-          li
-            i.fas.fa-check
-            | Introducir un producto nuevo al mercado.
-          li
-            i.fas.fa-check
-            | Reforzar un producto en declive.
-          li
-            i.fas.fa-check
-            | Instaurar procesos de innovación.
-          li
-            i.fas.fa-check
-            | Optimar la competitividad.
-
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10(data-aos="fade-left") 
-        .cajon-b.color-secundario.p-3.mb-5
-          p.mb-0 La estrategia es el conjunto de acciones que se deben llevar a cabo para alcanzar los objetivos definidos. Limas (2012) señala que "Las estrategias son decisiones que se toman y se constituyen en pautas de acción, fijando las directrices de una organización" (p. 252). En el contexto del #[i marketing], las estrategias se desarrollan en función de la posición que ocupa el producto en el mercado, frente a los competidores y los segmentos de mercado objetivo. Estas estrategias se encaminan a crear ventajas competitivas que impulsen el éxito de la empresa.
-        p Una vez formuladas las estrategias, se procede a definir los programas de acción de #[i marketing], que son las actividades específicas destinadas a ejecutar la estrategia planteada. Estas actividades se concretan en el #[i marketing] mix, que incluye los programas de producto, precio, distribución y comunicación.
-    
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-12(data-aos="fade-left") 
-        p Existen diferentes opciones de estrategias de #[i marketing]. La estrategia elegida debe estar siempre alineada al objetivo trazado. Para mayor claridad, a continuación, un gráfico que resume los tipos de estrategias más empleadas en el mercadeo.
-
-    .titulo.mb-4(data-aos="flip-up")
-      img(src='@/assets/curso/temas/imgicono.svg', alt='Imagen decorativa')
-      h5.mb-0 Tipo de estrategia de mercado
-    .tarjeta--container.row.mb-5
-      .col-lg.tarjeta.color-primario.p-5
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/curso/temas/tema4/img7.svg', alt='Texto que describa la imagen')
-        h4.text-center Estrategias de posicionamiento
-        p Para lograr posicionamiento frente a la competencia, las empresas pueden optar por:
-        p #[b Liderar en costos]: la empresa busca trabajar con bajos costos y trasladar este beneficio a los clientes a través de precios bajos.
-        p #[b Diferenciación]: la empresa se enfoca en su ventaja competitiva para diferenciarse de la competencia.
-        p Enfoque
-
-      .col-lg.tarjeta.color-acento-contenido.p-5
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/curso/temas/tema4/img8.svg', alt='Texto que describa la imagen')
-        h4.text-center Estrategias intensivas o de crecimiento
-        p #[b Penetración en el mercado:] con los productos actuales y a través de un mayor esfuerzo en mercadeo lograr aumentar el consumo.
-        p #[b Desarrollo del mercado:] con los productos actuales abrir nuevas zonas del mercado.
-        p #[b Desarrollo de producto:] se busca incrementar la venta mejorando un producto actual, innovando con productos nuevos.
-
-      .col-lg.tarjeta.color-secundario.p-5
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/curso/temas/tema4/img9.svg', alt='Texto que describa la imagen')
-        h4.text-center Estrategias de diversificación
-        p #[b Diversificación]: desarrollo de nuevos productos en nuevos mercados.
-        p #[b Diversificación concéntrica]: añadir productos relacionados.
-        p #[b Diversificación por conglomerados]: añadir productos no relacionados.
-        p #[b Diversificación horizontal]: añadir productos no relacionados, para clientes actuales.
-
-    .row.justify-content-center.align-items-center.mb-4
+          img(src='@/assets/curso/temas/tema4/img2_1.svg', alt='En la figura 4, se describe la estructura de los objetivos de un buen plan nacen del análisis de una situación real, seguida por el establecimiento de los objetivos para posteriormente establecer las acciones de #[i marketing] que se deben llevar con un buen seguimiento y control.')
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .cajon.color-secundario.p-4.mb-4
-          p Concluyendo se puede decir que el análisis de la situación actual de la empresa es la primera actividad en el plan de mercadeo. Se identifica el direccionamiento estratégico, luego se analizan los factores haciendo uso de la matriz FODA.
+        .titulo.mb-4(data-aos="flip-up")
+          img(src='@/assets/curso/temas/imgicono.svg', alt='Imagen decorativa')
+          h5.mb-0 a. Resumen ejecutivo
+        p El resumen ejecutivo es una sección breve pero esencial que proporciona una visión general de todo el plan de #[i marketing]. Aunque se ubica al principio del documento, este resumen se elabora al finalizar el desarrollo completo del plan. Su propósito es ofrecer a los lectores, especialmente a la alta dirección y a los potenciales inversores, una idea clara de los aspectos clave del plan y de las estrategias que se van a implementar.
+        p En esta sección se incluyen:
+    .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
+      .col-lg-8.col-12
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Objetivo general")
+            .col-lg-12.mb-4.mb-md-0
+              p Una declaración concisa del propósito del plan, como incrementar las ventas, lanzar un nuevo producto o aumentar la cuota de mercado.
+          .row(titulo="Aspectos económicos")
+            .col-lg-12.mb-4.mb-md-0
+              p Información sobre el presupuesto asignado, los costos proyectados y las expectativas de retorno de inversión.
+
+          .row(titulo="Resumen de las estrategias y acciones")
+            .col-lg-12.mb-4.mb-md-0
+              p Descripción de las principales estrategias y tácticas que se utilizarán, así como los plazos previstos para su implementación.
+          
+          .row(titulo="Resultados esperados")
+            .col-lg-12.mb-4.mb-md-0
+              p Resumen de los objetivos a corto y largo plazo, como el crecimiento en las ventas o la mejora del posicionamiento de la marca.
+      .col-lg-4.d-lg-flex.d-none
+        figure
+          img(src='@/assets/curso/temas/tema4/img3.png', alt='Imagen decorativa')
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12(data-aos="fade-left") 
+        p El resumen ejecutivo debe ser claro, directo y convincente, de manera que motive al lector a profundizar en los detalles del plan. Un ejemplo práctico sería el caso de una tienda de ropa que planea lanzar una línea sostenible: en el resumen ejecutivo se destacaría el enfoque en la moda ecológica, el objetivo de capturar un segmento de consumidores preocupados por el medio ambiente y las estrategias promocionales previstas para posicionar la nueva línea.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .titulo.mb-4(data-aos="flip-up")
+          img(src='@/assets/curso/temas/imgicono.svg', alt='Imagen decorativa')
+          h5.mb-0 b. Análisis de situación
+        p El análisis de situación es una sección fundamental que examina el entorno interno y externo de la empresa, proporcionando la base para el desarrollo de las estrategias de #[i marketing]. Esta sección incluye una evaluación detallada de los factores que influyen en la operación de la empresa y en su capacidad para competir en el mercado.
+
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+      .row(titulo="Análisis interno")
+        .col-lg-5.mb-4.mb-md-0
+          p Se enfoca en los aspectos internos de la empresa, como su capacidad productiva, recursos financieros, habilidades de #[i marketing], fortalezas, debilidades y cultura organizacional. Por ejemplo, una empresa de tecnología podría analizar su capacidad para desarrollar productos innovadores, la experiencia de su equipo de desarrollo y su imagen de marca en el mercado.
+        .col-lg-7.mb-4.mb-md-0
+          figure
+            img(src='@/assets/curso/temas/tema4/img4.png', alt='Imagen decorativa')
+      .row(titulo="Análisis externo")
+        .col-lg-5.mb-4.mb-md-0
+          p Incluye un examen del entorno competitivo, las tendencias del mercado, los comportamientos de los consumidores, los factores económicos, políticos, sociales y tecnológicos. Un método comúnmente utilizado para el análisis externo es la matriz FODA (Fortalezas, Oportunidades, Debilidades y Amenazas). Por ejemplo, una empresa de alimentos saludables podría identificar como oportunidad el aumento de la demanda de productos orgánicos y como amenaza la creciente competencia de marcas emergentes.
+        .col-lg-7.mb-4.mb-md-0
+          figure
+            img(src='@/assets/curso/temas/tema4/img5.png', alt='Imagen decorativa')
+
+      .row(titulo="Análisis del mercado y segmentación")
+        .col-lg-5.mb-4.mb-md-0
+          p Aquí se describe el mercado objetivo, las características demográficas y psicográficas del consumidor, y las necesidades que la empresa busca satisfacer. La segmentación de mercado permite enfocar las estrategias de marketing en aquellos grupos que presentan mayores oportunidades de éxito.
+        .col-lg-7.mb-4.mb-md-0
+          figure
+            img(src='@/assets/curso/temas/tema4/img6.png', alt='Imagen decorativa')
+      
+      .row(titulo="Análisis de la competencia")
+        .col-lg-5.mb-4.mb-md-0
+          p Incluye una revisión de los principales competidores, su cuota de mercado, estrategias de #[i marketing], fortalezas y debilidades. Por ejemplo, una empresa de cosméticos que planea lanzar una nueva línea de productos veganos realizaría un análisis de los competidores existentes en este segmento para identificar las brechas y oportunidades en el mercado.
+        .col-lg-7.mb-4.mb-md-0
+          figure
+            img(src='@/assets/curso/temas/tema4/img7.png', alt='Imagen decorativa')
+    .row.justify-content-center.align-items-center.mb-5.mt-5
+      .col-lg-10
+        .titulo.mb-4(data-aos="flip-up")
+          img(src='@/assets/curso/temas/imgicono.svg', alt='Imagen decorativa')
+          h5.mb-0 c. Definición de objetivos
+        p La definición de objetivos es una etapa crucial del plan de #[i marketing], ya que establece los resultados que la empresa espera alcanzar en un tiempo específico. Los objetivos deben ser claros, cuantificables, alcanzables, relevantes y estar enmarcados en un tiempo determinado (criterio SMART).
+        p Al definir los objetivos, se deben considerar aspectos como:
+        
+    .row.mb-5
+      .col-md-6.col-lg.tarjeta--tabla.p-4
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/tema4/img8.svg' alt='AvatarTop')
+        h4.text-center Crecimiento en ventas
+        p.text-center Por ejemplo, aumentar las ventas en un 20 % durante el próximo año.
+
+      .col-md-6.col-lg.tarjeta--tabla.p-4
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/tema4/img9.svg' alt='AvatarTop')
+        h4.text-center Expansión de la participación de mercado
+        p.text-center Incrementar la cuota de mercado en un segmento específico.
+
+      .col-md-6.col-lg.tarjeta--tabla.p-4
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/tema4/img10.svg' alt='AvatarTop')
+        h4.text-center Posicionamiento de marca
+        p.text-center Mejorar la percepción de la marca como líder en sostenibilidad dentro del mercado.
+
+      .col-md-6.col-lg.tarjeta--tabla.p-4
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/tema4/img11.svg' alt='AvatarTop')
+        h4.text-center Fidelización de clientes
+        p.text-center Aumentar la tasa de retención de clientes en un 15 % mediante estrategias de lealtad y recompensas.
+    
     .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12(data-aos="fade-left") 
+        p Un ejemplo práctico podría ser una empresa de tecnología que lanza un nuevo producto innovador. Un objetivo específico podría ser alcanzar un 10 % de participación de mercado en el segmento de dispositivos móviles dentro de los primeros seis meses. Para priorizar los objetivos se puede tener los siguientes recursos:
+    
+    .titulo-sexto.color-acento-contenido.offset-0(data-aos="zoom-in")
+      h5 Figura 5.
+      span  #[i Priorización de objetivos empresariales]
+    
+    .row.justify-content-center.mb-5
+      .col-md-10.desktop(data-aos="zoom-in")
+        figure
+          img(src='@/assets/curso/temas/tema4/img12.svg', alt='En la figura 5, se comparte con la imagen la importancia de la priorización de los objetivos midiendo los objetivos urgentes de trabajo rápido y los objetivos de alto impacto que requieren un poco más de tiempo.')
+      .col-md-6.movil(data-aos="zoom-in")
+        figure
+          img(src='@/assets/curso/temas/tema4/img12_1.svg', alt='En la figura 5, se comparte con la imagen la importancia de la priorización de los objetivos midiendo los objetivos urgentes de trabajo rápido y los objetivos de alto impacto que requieren un poco más de tiempo.')
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .titulo.mb-4(data-aos="flip-up")
+          img(src='@/assets/curso/temas/imgicono.svg', alt='Imagen decorativa')
+          h5.mb-0 d. Estrategias de #[i marketing]
+        p Las estrategias de #[i marketing] detallan el enfoque que la empresa adoptará para lograr los objetivos establecidos. Estas estrategias deben estar alineadas con el análisis de situación y se pueden clasificar en tres categorías principales:
+    .row
+      .col-lg-4.col-md-6
+        .tarjeta-avatar-a.mb-5
+          .tarjeta-avatar-a__img
+            img(src='@/assets/curso/temas/tema4/img13.svg' alt='AvatarTop')
+        h5 Estrategias de posicionamiento
+        p Se centran en cómo se desea que los consumidores perciban el producto o marca. Esto puede incluir la creación de una imagen de producto premium o de una marca ecológica y socialmente responsable. Por ejemplo, Tesla utiliza una estrategia de posicionamiento de innovación y sostenibilidad, resaltando las características avanzadas y respetuosas con el medio ambiente de sus vehículos eléctricos.
+      .col-lg-4.col-md-6
+        .tarjeta-avatar-a.mb-5
+          .tarjeta-avatar-a__img
+            img(src='@/assets/curso/temas/tema4/img14.svg' alt='AvatarTop')
+        h5 Estrategias de diferenciación
+        p Buscan resaltar las características únicas del producto frente a los competidores. Esto puede implicar ofrecer un nivel superior de calidad, un diseño innovador o un servicio al cliente excepcional. Un ejemplo sería Samsung, que se diferencia en el mercado de #[i smartphones] mediante la incorporación de tecnología de vanguardia en sus dispositivos, como pantallas plegables
+      .col-lg-4.col-md-6
+        .tarjeta-avatar-a.mb-5
+          .tarjeta-avatar-a__img
+            img(src='@/assets/curso/temas/tema4/img15.svg' alt='AvatarTop')
+        h5 Estrategias de crecimiento
+        p Incluyen la expansión a nuevos mercados, el desarrollo de nuevos productos o la diversificación. Por ejemplo, una cadena de restaurantes que introduce una nueva línea de alimentos saludables como parte de su estrategia de crecimiento. 
+
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p Posteriormente, se establecen el mercado meta y los segmentos, que quiere atender la empresa, para así entrar a la definición de objetivos de mercado, los cuales deben ir acompañados de una serie de estrategias que permitan el logro de los mismos.      
+        p Las estrategias de #[i marketing] también deben contemplar las decisiones relacionadas con el #[i marketing mix] (producto, precio, plaza y promoción) que se detallarán en la siguiente sección del plan.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .titulo.mb-4(data-aos="flip-up")
+          img(src='@/assets/curso/temas/imgicono.svg', alt='Imagen decorativa')
+          h5.mb-0 e. Acciones de #[i marketing]
+        p Esta sección del plan describe las tácticas específicas que se llevarán a cabo para implementar las estrategias de #[i marketing]. Estas acciones deben ser concretas, con un calendario claro y responsabilidades asignadas. La planificación de las acciones de #[i marketing] implica desarrollar un programa que detalle las actividades relacionadas con las 4 P's del #[i marketing mix]:
+
+    TabsC.color-acento-botones.mb-5
+      .p-4.py-99.py-md-5(titulo="Producto")
+        .row
+          .col-lg-8
+            figure
+              img(src='@/assets/curso/temas/tema4/img16.png', alt='Imagen decorativa')
+          .col-lg-4.mb-4.mb-md-0.p-4
+            p Diseño, desarrollo, empaque y lanzamiento del producto. Por ejemplo, una empresa de alimentos orgánicos podría lanzar una nueva línea de #[i snacks] saludables con empaques biodegradables.
+      .p-4.py-99.py-md-5(titulo="Precio")
+        .row
+          .col-lg-8
+            figure
+              img(src='@/assets/curso/temas/tema4/img17.png', alt='Imagen decorativa')
+          .col-lg-4.mb-4.mb-md-0.p-4
+            p Definición de la estrategia de precios, incluyendo descuentos, promociones y precios por volumen. Una tienda en línea podría ofrecer descuentos especiales durante la temporada navideña para atraer más clientes.
+      .p-4.py-99.py-md-5(titulo="Plaza (distribución)")
+        .row
+          .col-lg-8
+            figure
+              img(src='@/assets/curso/temas/tema4/img18.png', alt='Imagen decorativa')
+          .col-lg-4.mb-4.mb-md-0.p-4
+            p Selección de los canales de distribución más efectivos, ya sea mediante tiendas físicas, venta en línea o puntos de venta externos. Por ejemplo, una marca de ropa podría expandir su presencia a través de una asociación con una cadena de tiendas departamentales.
+      .p-4.py-99.py-md-5(titulo="Promoción")
+        .row
+          .col-lg-8
+            figure
+              img(src='@/assets/curso/temas/tema4/img19.png', alt='Imagen decorativa')
+          .col-lg-4.mb-4.mb-md-0.p-4
+            p Implementación de campañas publicitarias, promociones de ventas, #[i marketing] digital, relaciones públicas y otras acciones de comunicación. Una marca de cosméticos podría realizar una campaña en redes sociales con influenciadores para aumentar la visibilidad de su nueva línea de productos veganos. 
+  
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .titulo.mb-4(data-aos="flip-up")
+          img(src='@/assets/curso/temas/imgicono.svg', alt='Imagen decorativa')
+          h5.mb-0 f. Seguimiento y control
+        p El seguimiento y control son componentes esenciales del plan de #[i marketing], ya que permiten evaluar el desempeño de las estrategias y tácticas implementadas, así como identificar las desviaciones respecto a los objetivos propuestos.
+
+    .row.justify-content-center.mb-5
+      .col-lg-9.position-relative
+        h3.mb-4.text-center.txt--purpura Elementos determinantes para el análisis - CAC
+        .avatar
+          figure
+            img(src="@/assets/curso/temas/tema4/img23.svg", alt="alt").img250
+        .crd.crd--avatarHorizontal.crd--first.py-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/temas/tema4/img20.svg", alt="alt").img100
+            .col
+              h5 Indicadores de gestión (KPIs)
+              p Se deben definir indicadores cuantitativos y cualitativos que permitan medir los resultados de las actividades de #[i marketing]. Ejemplos de KPIs incluyen el volumen de ventas, la cuota de mercado, el retorno de inversión (ROI) en publicidad, la tasa de conversión en el sitio web y el nivel de satisfacción del cliente.
+        .crd.crd--avatarHorizontal.py-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/temas/tema4/img21.svg", alt="alt").img100
+            .col
+              h5 Métodos de control
+              p Los métodos de control pueden incluir informes periódicos de ventas, análisis financiero, encuestas de satisfacción al cliente y auditorías de #[i marketing]. Estos métodos permiten realizar ajustes oportunos en las estrategias y tácticas para mejorar los resultados.
+        .crd.crd--avatarHorizontal.crd--last.py-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/temas/tema4/img22.svg", alt="alt").img100
+            .col
+              h5 Acciones correctivas
+              p Esta sección debe describir los posibles ajustes que se realizarán en caso de que los resultados no cumplan con las expectativas. Por ejemplo, si una campaña publicitaria no está generando el nivel esperado de interacción en redes sociales, se puede optar por cambiar el mensaje o ajustar la segmentación del público objetivo. 
+
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p En conclusión, la estructura básica del plan de #[i marketing] es un conjunto de secciones interrelacionadas que abordan desde el análisis de la situación actual hasta la implementación y evaluación de estrategias. Esta estructura proporciona un marco detallado que permite a la empresa tomar decisiones informadas, coordinar esfuerzos y medir el impacto de sus acciones en el logro de los objetivos comerciales.
 
 </template>
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema4',
+  components: {},
   data: () => ({
     // variables de vue
   }),

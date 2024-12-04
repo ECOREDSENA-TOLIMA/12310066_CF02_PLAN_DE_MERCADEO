@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Diagnóstico de la situación de la empresa',
+    componenteFormativo: 'Elaborando el plan de mercadeo',
     descripcionCurso:
-      'Es necesario realizar un diagnóstico de mercados para que las empresas comprendan la realidad a la que se enfrentan en cada momento y mantengan una conexión constante con todos los ámbitos comerciales. Esta es la razón por la cual es fundamental trabajar este componente formativo para adquirir conocimientos que faciliten entender la situación real de una empresa.',
+      'El plan de mercadeo es la realidad a la que todas las empresas deben apuntar buscando entregar una realidad comercial de impacto a los consumidores.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -36,74 +36,80 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Diagnóstico de la situación de la empresa',
+        titulo: 'Definición e importancia del plan de mercadeo en una empresa',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Elementos clave del diagnóstico empresarial',
-            hash: 't_1_1',
-          },
-          {
-            numero: '1.2',
-            titulo: 'Matriz FODA',
-            hash: 't_1_2',
-          },
-          {
-            numero: '1.3',
-            titulo:
-              'Importancia del diagnóstico empresarial en el plan de mercadeo',
-            hash: 't_1_3',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Dirección estratégica de la empresa',
+        titulo:
+          'Papel del plan de mercadeo en la consecución de los objetivos comerciales',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '2.1',
-            titulo: 'Dirección estratégica',
-            hash: 't_2_1',
-          },
-          {
-            numero: '2.2',
-            titulo: 'Función del diagnóstico empresarial',
-            hash: 't_2_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Aprendiendo sobre el mercado',
+        titulo: 'Estrategias de <em>marketing mix</em> (las 4 P’s)',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Definiciones de <em>marketing</em>',
+            titulo: 'Producto',
             hash: 't_3_1',
           },
           {
             numero: '3.2',
-            titulo: 'La planeación estratégica en el <em>marketing</em>',
+            titulo: 'Precio',
             hash: 't_3_2',
           },
           {
             numero: '3.3',
-            titulo: 'La segmentación',
+            titulo: 'Plaza (distribución)',
             hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Promoción',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Integración de las 4 P’s en el <em>marketing mix</<em>',
+            hash: 't_3_5',
           },
         ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Formulación estratégica para el plan de mercadeo',
+        titulo: 'Estructura básica del plan de <em>marketing</em>',
         desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Elaboración del plan de mercadeo: paso a paso ',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Implementación del plan de mercadeo',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema7',
+        numero: '7',
+        titulo: 'Seguimiento y control del plan de mercadeo',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '7.1',
+            titulo: 'Evaluación y ajustes al plan de mercadeo',
+            hash: 't_7_1',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -137,7 +143,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA_01_12310066_DU.pdf',
+        download: 'downloads/CFA_02_12310066_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -153,16 +159,16 @@ export default {
   },
   complementario: [
     {
-      tema: 'Introducción al CRM',
+      tema: 'Estrategias de <em>marketing mix</em> (las 4 P’s)',
       referencia:
-        'Lifeder Educación. (2022). ¿Qué es el DIAGNÓSTICO ORGANIZACIONAL y para qué sirve?',
+        'Carlos Ramírez MBA EA. (2021). <em>MARKETING MIX</em> – Las 4 Ps. La Mercadotecnia es Necesaria para el Éxito de su Negocio',
       tipo: 'Video en línea',
-      link: 'https://www.youtube.com/watch?v=SnJz_2__fC0',
+      link: 'https://www.youtube.com/watch?v=rcCWVcyfc8U',
     },
     {
       tema: 'Formulación estratégica para el plan de mercadeo',
       referencia:
-        'TEDx Talks (2020). La evolución del marketing | Paul Soto | TEDxUANL.',
+        'TEDx Talks (2020). La evolución del <em>marketing</em> | Paul Soto | TEDxUANL.',
       tipo: 'Video en línea',
       link: 'https://www.youtube.com/watch?v=QyrL-K8AUuU',
     },
@@ -171,76 +177,62 @@ export default {
     {
       termino: 'Bienes de consumo',
       significado:
-        'productos elaborados expresamente para que los utilice el consumidor final, en contraposición a aquellos que se fabrican para revenderlos o utilizarlos en la fabricación de otros artículos. Productos, como cigarrillos, cerveza y goma de mascar que se compran con frecuencia, inmediatamente y con poco esfuerzo.',
+        'Productos elaborados expresamente para que los utilice el consumidor final, en contraposición a aquellos que se fabrican para revenderlos o utilizarlos en la fabricación de otros artículos. Productos, como cigarrillos, cerveza y goma de mascar que se compran con frecuencia, inmediatamente y con poco esfuerzo.',
     },
     {
       termino: 'Bienes industriales',
       significado:
-        'artículos utilizados para producir otros bienes para su reventa.',
+        'Artículos utilizados para producir otros bienes para su reventa.',
     },
     {
       termino: '<em>Brand</em>',
-      significado: 'marca de producto o de un servicio.',
+      significado: 'Marca de producto o de un servicio.',
     },
     {
       termino: '<em>Branding</em>',
       significado:
-        'la práctica de crear prestigio y gran valor a un producto con apoyo de marketing; dicha marca puede estar asociada o no al nombre de la empresa.',
+        'La práctica de crear prestigio y gran valor a un producto con apoyo de <em>marketing</em>; dicha marca puede estar asociado o no a nombre de la empresa.',
     },
     {
       termino: 'Comportamiento de compra del consumidor',
       significado:
-        'la conducta de compra de los consumidores finales, es decir, individuos y familias que adquieren bienes y servicios para consumo personal.',
+        'La conducta de compra de los consumidores finales, es decir, individuos y familias que adquieren bienes y servicios para consumo personal.',
     },
     {
       termino: 'Comportamiento del consumidor',
       significado:
-        'forma en que un individuo llega a las decisiones relativas a la selección, compra y uso de bienes y servicios.',
+        'Forma que un individuo llega a las decisiones relativas a la selección, compra y uso de bienes y servicios.',
     },
     {
-      termino: 'Concepto de producto',
+      termino: 'Concepto de mercadotecnia',
       significado:
-        'noción que establece que los consumidores preferirán productos que ofrezcan mejor calidad, rendimiento o características y que la organización debe dedicar su energía a mejorarlos continuamente; versión detallada de la idea del nuevo producto expresada en términos comprensibles para los consumidores.',
+        'Enfoque de administración de mercadotecnia que sostiene el logro de objetivos organizacionales depende de la determinación de las necesidades y deseos de los mercados objetivos y de la satisfacción de los mismos de manera más eficaz y eficiente que los competidores.',
     },
     {
-      termino: 'Concepto de venta',
+      termino: 'Efectividad',
       significado:
-        'idea de que el consumidor no comprará suficientes productos de la organización a menos que ésta haga un gran esfuerzo de promoción y ventas.',
+        'La efectividad de un sistema de ventas está relacionada con varios factores: tipo y calidad del producto, el precio, las habilidades y preparación del vendedor.',
     },
     {
-      termino: 'Demandas',
-      significado: 'deseos humanos apoyados por el poder de compra.',
-    },
-    {
-      termino: 'Estrategia',
+      termino: 'Mercadeo de nichos',
       significado:
-        'arte de dirigir operaciones. Arte, traza para dirigir un asunto.',
-    },
-    {
-      termino: 'Mercado objeto',
-      significado:
-        'grupo de compradores que comparten necesidades o características comunes, a los cuales una empresa decide servir.',
-    },
-    {
-      termino: 'Mercado',
-      significado:
-        'grupo identificable de consumidores con cierto poder adquisitivo, que están dispuestos y disponibles para pagar por un producto o un servicio. La totalidad de los compradores potenciales y actuales de algún producto o servicio.',
+        'Mercadeo que se hace a pequeños grupos de compradores que tienen necesidades especiales. Como puede ser comidas enlatadas especiales para grupos étnicos específicos.',
     },
     {
       termino: 'Segmentación de mercado',
       significado:
-        'proceso de clasificación de clientes en grupos con distintas necesidades, características o comportamientos. Se divide un mercado en grupos de consumidores bien definidos que acaso requieran productos o mezclas de mercadotecnia distintas.',
+        'Proceso de clasificación de clientes en grupos con distintas necesidades, características o comportamientos. Se divide un mercado en grupos de consumidores bien definidos que acaso requieran productos o mezclas de mercadotecnia distintas.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Baena, V. (2011). Fundamentos de marketing: entorno, consumidor, estrategia e investigación comercial. España: Editorial UOC.',
+        'Baena, V. (2011). Fundamentos de <em>marketing</em>: entorno, consumidor, estrategia e investigación comercial. España: Editorial UOC.',
       link: '',
     },
     {
       referencia:
-        'Kloter, P. (2008). Las preguntas más frecuentes sobre el marketing. Bogotá, Colombia: Editorial Norma.',
+        'Kloter, P. (2008). Las preguntas más frecuentes sobre el <em>marketing</em>. Bogotá, Colombia: Editorial Norma.',
       link: '',
     },
     {
@@ -250,32 +242,32 @@ export default {
     },
     {
       referencia:
-        'Limas, S. (2012). Marketing empresarial: dirección como estrategia competitiva. Bogotá, Colombia: Ediciones de la U.',
+        'Limas, S. (2012). <em>marketing</em> empresarial: dirección como estrategia competitiva. Bogotá, Colombia: Ediciones de la U.',
       link: '',
     },
     {
       referencia:
-        'Mesa, M. (2012). Fundamentos de marketing. Colombia: Ecoe Ediciones.',
+        'Mesa, M. (2012). Fundamentos de <em>marketing</em>. Colombia: Ecoe Ediciones.',
       link: '',
     },
     {
       referencia:
-        'Sainz de Vicuña, J. (2004). La importancia del plan de marketing como herramienta de gestión. España: Ediciones Deusto - Planeta de Agostini Profesional y Formación S.L.',
+        'Sainz de Vicuña, J. (2004). La importancia del plan de <em>marketing</em> como herramienta de gestión. España: Ediciones Deusto - Planeta de Agostini Profesional y Formación S.L.',
       link: '',
     },
     {
       referencia:
-        'Schnarch, A., & Schnarch, G. (2010). Marketing para emprendedores. Colombia: Ecoe Ediciones.',
+        'Schnarch, A., & Schnarch, G. (2010). <em>Marketing</em> para emprendedores. Colombia: Ecoe Ediciones.',
       link: '',
     },
     {
       referencia:
-        'Schnarch, K. (2013). Marketing para Pymes: un enfoque para Latinoamérica. México: Alfaomega.',
+        'Schnarch, K. (2013). <em>Marketing</em> para Pymes: un enfoque para Latinoamérica. México: Alfaomega.',
       link: '',
     },
     {
       referencia:
-        'Solomon, M., & Stuart, E. (2001). Marketing. Personas reales, decisiones reales (2ª ed.). Bogotá, Colombia: Pearson Educación de Colombia Ltda.',
+        'Solomon, M., & Stuart, E. (2001). <em>Marketing</em>. Personas reales, decisiones reales (2ª ed.). Bogotá, Colombia: Pearson Educación de Colombia Ltda.',
       link: '',
     },
   ],
@@ -359,7 +351,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Norma Constanza Morales Cruz',
+          nombre: 'Jorge Eduardo Rueda Peña',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
