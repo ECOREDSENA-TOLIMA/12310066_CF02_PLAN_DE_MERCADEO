@@ -30,9 +30,9 @@ export default {
             { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
           mensaje_correcto:
-            '¡Correcto! El plan de mercadeo establece las acciones y recursos necesarios para alcanzar los objetivos comerciales y posicionar productos o servicios en el mercado.',
+            'El plan de mercadeo establece las acciones y recursos necesarios para alcanzar los objetivos comerciales y posicionar productos o servicios en el mercado.',
           mensaje_incorrecto:
-            'Incorrecto. El plan de mercadeo es una guía que define las acciones y recursos que la empresa usará para alcanzar sus objetivos de mercado.',
+            'El plan de mercadeo es una guía que define las acciones y recursos que la empresa usará para alcanzar sus objetivos de mercado.',
         },
         {
           id: 2,
@@ -62,7 +62,7 @@ export default {
           mensaje_correcto:
             '¡Exacto! La implementación del plan de mercadeo requiere una cuidadosa asignación de responsabilidades y recursos para asegurar su ejecución efectiva.',
           mensaje_incorrecto:
-            'Incorrecto. La implementación del plan de mercadeo sí requiere una asignación de responsabilidades y recursos para llevar a cabo las acciones planificadas.',
+            'La implementación del plan de mercadeo sí requiere una asignación de responsabilidades y recursos para llevar a cabo las acciones planificadas.',
         },
         {
           id: 4,
@@ -75,9 +75,9 @@ export default {
             { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
           mensaje_correcto:
-            '¡Correcto! El análisis FODA es fundamental para evaluar la situación interna y externa de la empresa y orientar la formulación de estrategias.',
+            'El análisis FODA es fundamental para evaluar la situación interna y externa de la empresa y orientar la formulación de estrategias.',
           mensaje_incorrecto:
-            'Incorrecto. El análisis FODA es una herramienta esencial para evaluar las fortalezas, oportunidades, debilidades y amenazas de una empresa.',
+            'El análisis FODA es una herramienta esencial para evaluar las fortalezas, oportunidades, debilidades y amenazas de una empresa.',
         },
         {
           id: 5,
@@ -107,7 +107,7 @@ export default {
           mensaje_correcto:
             '¡Exacto! Aunque la promoción es una herramienta clave para comunicar, todas las P’s del marketing mix (Producto, Precio, Plaza, Promoción) interactúan para comunicar el valor al cliente.',
           mensaje_incorrecto:
-            'Incorrecto. Todas las P’s del marketing mix (Producto, Precio, Plaza, Promoción) juegan un papel en la comunicación con los clientes.',
+            'Todas las P’s del marketing mix (Producto, Precio, Plaza, Promoción) juegan un papel en la comunicación con los clientes.',
         },
         {
           id: 7,
@@ -139,9 +139,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! El plan de mercadeo proporciona directrices para alcanzar los objetivos comerciales.',
+            'El plan de mercadeo proporciona directrices para alcanzar los objetivos comerciales.',
           mensaje_incorrecto:
-            'Incorrecto. El plan de mercadeo se enfoca en guiar a la empresa hacia sus objetivos comerciales.',
+            'El plan de mercadeo se enfoca en guiar a la empresa hacia sus objetivos comerciales.',
         },
         {
           id: 8,
@@ -175,7 +175,7 @@ export default {
           mensaje_correcto:
             '¡Bien hecho! El plan coordina las acciones para lograr los objetivos comerciales.',
           mensaje_incorrecto:
-            'Incorrecto. El plan de mercadeo va más allá de ventas y coordina acciones para cumplir objetivos.',
+            'El plan de mercadeo va más allá de ventas y coordina acciones para cumplir objetivos.',
         },
         {
           id: 9,
@@ -189,10 +189,9 @@ export default {
             { id: 'c', texto: 'Promoción', esCorrecta: false },
             { id: 'd', texto: 'Plaza', esCorrecta: false },
           ],
-          mensaje_correcto:
-            '¡Correcto! Presupuesto no forma parte de las 4 P´s.',
+          mensaje_correcto: 'Presupuesto no forma parte de las 4 P´s.',
           mensaje_incorrecto:
-            'Incorrecto. Todas las P’s del marketing mix (Producto, Precio, Plaza, Promoción) juegan un papel en la comunicación con los clientes.',
+            'Todas las P’s del marketing mix (Producto, Precio, Plaza, Promoción) juegan un papel en la comunicación con los clientes.',
         },
         {
           id: 10,
@@ -224,9 +223,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La estrategia de plaza se refiere a los canales de distribución.',
+            'La estrategia de plaza se refiere a los canales de distribución.',
           mensaje_incorrecto:
-            'Incorrecto. La estrategia de plaza se enfoca en la distribución del producto.',
+            'La estrategia de plaza se enfoca en la distribución del producto.',
         },
         {
           id: 11,
@@ -259,7 +258,7 @@ export default {
           mensaje_correcto:
             '¡Exacto! El análisis de situación se centra en evaluar el entorno.',
           mensaje_incorrecto:
-            'Incorrecto. El análisis de situación se enfoca en el entorno interno y externo.',
+            'El análisis de situación se enfoca en el entorno interno y externo.',
         },
       ],
       mensaje_final_aprobado:
