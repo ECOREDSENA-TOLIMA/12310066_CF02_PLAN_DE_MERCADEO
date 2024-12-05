@@ -190,7 +190,7 @@ export default {
             { id: 'd', texto: 'Plaza', esCorrecta: false },
           ],
           mensaje_correcto:
-            '¡Correcto! Presupuesto no forma parte de las 4 P´s. Retroalimentación incorrecta: No es correcto. Presupuesto no pertenece a las 4 P´s del marketing mix.',
+            '¡Correcto! Presupuesto no forma parte de las 4 P´s.',
           mensaje_incorrecto:
             'Incorrecto. Todas las P’s del marketing mix (Producto, Precio, Plaza, Promoción) juegan un papel en la comunicación con los clientes.',
         },
